@@ -13,10 +13,11 @@ O desenvolvimento do projeto está organizado nas seguintes etapas:
 **Pipeline de Treinamento e Otimização:** Utilização do "ImbPipeline" para evitar vazamento de dados, combinado com **SMOTE** para balanceamento dos dados, **SelectKBest** para seleção de atributos e otimização de hiperparâmetros com **Optuna**, além de validação cruzada estratificada pelo **StratifiedKFold** com folds $k = 5$
 **Criação e Treinamento de Modelos** Baseline, Regressão Logística, KNearestNeighbors (KNN), Árvore de Decisão, Floresta Aleatória (Random Forest) e XGBoost.
 **Discussão de Resultados e Conclusão:** Comparação das métricas **ROC-AUC** e **F1 Score**, análise das curvas de ROC e discussão do custo benefício entre desempenho dos modelos e custo computacional.
+**Interações com AI e Referências:** Esclarecimento quanto ao uso de AI e quanto às referências utilizadas no projeto.
 
 ## Principais Resultados
 **Desempenho Geral:** Todos os modelos superaram o *baseline*, alcançando pontuações de **ROC-AUC** acima de $0.80$. O **F1 Score** manteve-se abaixo de $0.65$ devido ao desbalanceamento dos dados do dataset (mesmo que a estratégia SMOTE tenha sido utilizada) e à presença de falsos positivos.
-* **Custo Computacional vs. Eficiência:** Modelos mais complexos (XGBoost e Floresta Aleatória) exigiram alto custo computacional na otimização, enquanto seus desempenhos foram semelhantes aos de modelos mais simples. A **Regressão Logística** destacou-se como uma das melhores relações custo-benefício, atingindo métricas muito semelhantes às dos melhores modelos, enquanto garantia um baixo custo computacional (curto tempo de processamento).
+**Custo Computacional vs. Eficiência:** Modelos mais complexos (XGBoost e Floresta Aleatória) exigiram alto custo computacional na otimização, enquanto seus desempenhos foram semelhantes aos de modelos mais simples. A **Regressão Logística** destacou-se como uma das melhores relações custo-benefício, atingindo métricas muito semelhantes às dos melhores modelos, enquanto garantia um baixo custo computacional (curto tempo de processamento).
 
 ## Como posso executar este projeto?
 Baixe os arquivos Tiamat.ipynb e Brasão Tiamat.jpeg, referentes ao notebook Jupyter e a imagem com o brasão recreativo do projeto, respectivamente. 
