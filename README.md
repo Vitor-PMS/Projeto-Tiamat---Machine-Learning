@@ -20,4 +20,4 @@ O desenvolvimento do projeto está organizado nas seguintes etapas:
 **Custo Computacional vs. Eficiência:** Modelos mais complexos (XGBoost e Floresta Aleatória) exigiram alto custo computacional na otimização, enquanto seus desempenhos foram semelhantes aos de modelos mais simples. A **Regressão Logística** destacou-se como uma das melhores relações custo-benefício, atingindo métricas muito semelhantes às dos melhores modelos, enquanto garantia um baixo custo computacional (curto tempo de processamento).
 
 ## Como posso executar este projeto?
-Baixe os arquivos Tiamat.ipynb e Brasão Tiamat.jpeg, referentes ao notebook Jupyter e a imagem com o brasão recreativo do projeto, respectivamente. 
+Baixe os arquivos Tiamat.ipynb e Brasão Tiamat.jpeg, referentes ao notebook Jupyter e a imagem com o brasão recreativo do projeto, respectivamente. Depois, coloque-os na pasta do JupyterLab (para quem utiliza Notebook Jupyter), e rode o kernel do notebook Tiamat.
